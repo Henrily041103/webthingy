@@ -1,0 +1,63 @@
+/* Main page general */
+
+#main_page {
+    background-color: rgb(182, 36, 50);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* Carousel */
+.Main_Page_Carousel_Image {
+    height: 60vh;
+}
+
+#mp_carousel_container {
+    text-align: center;
+    margin-left: -4%;
+    margin-right: 2%;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px; /* change width */
+    height: 10px; /* change height */
+    border-radius: 200%;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+    right: 300px;
+}
+
+/* Text */
+#intro_text{
+    color: white;
+    margin-left: 20%;
+}
+
+#big-intro-text {
+    font-family: Helvetica;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: -5%;
+}
+
+#medium-intro-text {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: -5%;
+}
+
+.small-intro-text {
+    font-family: Calibri;
+    font-size: 28px;
+}
+
+.list_item {
+    font-size: 60px;
+    vertical-align: middle;
+}
+
+#intro_list {
+    list-style-image: url('../../assets/images/Intro_Images/bullet_point.svg');
+}

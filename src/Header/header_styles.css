@@ -1,0 +1,88 @@
+/* Header */
+.container {
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+/* Navbar */
+#logo {
+    max-width: 120%;
+    max-height: 120%;
+    object-fit: fill;
+    margin-left: -50%;
+}
+
+.title_container {
+    font-family: Cambria;
+    font-size: 24px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.support_container{
+    font-size: 24px;
+    font-family:  Calibri;
+    color: red;
+    margin-left: 7%;
+}
+
+#number {
+    color: rgb(182, 36, 50);
+    overflow:visible;
+}
+
+#support{
+    margin-top: 2%;
+    text-align: center;
+}
+
+#support_button {
+    background-color: rgb(182, 36, 50);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* NavPanel */
+
+#navi_buttons_container {
+    background-color: rgb(84, 17, 23);
+    padding: 3px;
+    
+}
+
+#navi_buttons_column {
+    text-align: center;
+    
+}
+
+.Navi_Button{
+    background-color: rgb(84, 17, 23);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    margin-top: 3%;
+}
+
+.Media_Button {
+    background-color: rgb(84, 17, 23);
+    border: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#media_buttons_column {
+    text-align:right;
+    padding-left: 12%;
+}
+
+#youtube_button_image {
+    min-width: 200%;
+    min-height: 200%;
+}
+#youtube_button{
+    padding-left: 2%;
+}

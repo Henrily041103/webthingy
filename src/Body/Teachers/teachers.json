@@ -1,0 +1,20 @@
+{
+    "items" : [
+        {
+            "img" : "assets/images/Teacher_Images/teacher1.jpg",
+            "comments" :[
+                {"text" : "Thạc sĩ ngôn ngữ Anh – Đại Học KHXH&NV"},
+                {"text" : "Giảng viên khoa Ngôn Ngữ Anh tại ĐH FPT"},
+                {"text" : "Hơn 8 năm kinh nghiệm giảng dạy tiếng Anh cho học sinh, sinh viên và các doanh nghiệp."}
+            ]
+        },
+        {
+            "img" : "assets/images/Teacher_Images/teacher2.jpg",
+            "comments" :[
+                {"text" : "Test1"},
+                {"text" : "Test2"},
+                {"text" : "Test3"}
+            ]
+        }
+    ]
+}

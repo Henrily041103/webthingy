@@ -1,0 +1,36 @@
+{
+    "items":[
+        {
+            "coursename" : "Sơ cấp IP 03",
+            "date" : "29/10/2022",
+            "time" : "7:00 – 9:00 pm",
+            "place" : "OFFLINE",
+            "link" : "",
+            "status" : "open"
+        },
+        {
+            "coursename" : "Trung cấp IU 03",
+            "date" : "29/10/2022",
+            "time" : "7:00 – 9:00 pm",
+            "place" : "OFFLINE",
+            "link" : "",
+            "status" : "open"
+        },
+        {
+            "coursename" : "Nâng cao IU 03",
+            "date" : "29/10/2022",
+            "time" : "7:00 – 9:00 pm",
+            "place" : "OFFLINE",
+            "link" : "",
+            "status" : "open"
+        },
+        {
+            "coursename" : "Luyên Thi Pre-IELTS",
+            "date" : "29/10/2022",
+            "time" : "7:00 – 9:00 pm",
+            "place" : "OFFLINE",
+            "link" : "",
+            "status" : "closed"
+        }
+    ]
+}
