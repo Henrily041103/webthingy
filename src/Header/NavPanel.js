@@ -13,7 +13,7 @@ class NavPanel extends React.Component{
                 <div className="col-8" id = "navi_buttons_column">
                     <div className="row">
                         <div className="col">
-                            <NaviButton name = "main_page_button" text = "Trang chủ" link = "main_page"></NaviButton>
+                            <NaviButton name = "main_page_button" text = "Về IELTS Scholar" link = "main_page"></NaviButton>
                         </div>
                         <div className="col">
                             <NaviButton name = "opening_slots_button" text = "Lịch khai giảng" link = "opening_slots"></NaviButton>

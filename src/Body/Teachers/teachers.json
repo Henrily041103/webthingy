@@ -1,20 +1,40 @@
 {
     "items" : [
         {
-            "img" : "assets/images/Teacher_Images/teacher1.jpg",
+            "img" : "teacher1.jpg",
             "comments" :[
                 {"text" : "Thạc sĩ ngôn ngữ Anh – Đại Học KHXH&NV"},
                 {"text" : "Giảng viên khoa Ngôn Ngữ Anh tại ĐH FPT"},
                 {"text" : "Hơn 8 năm kinh nghiệm giảng dạy tiếng Anh cho học sinh, sinh viên và các doanh nghiệp."}
-            ]
+            ],
+            "title" : "GIẢNG VIÊN CHẤT LƯỢNG"
         },
         {
-            "img" : "assets/images/Teacher_Images/teacher2.jpg",
+            "img" : "teacher2.png",
             "comments" :[
-                {"text" : "Test1"},
                 {"text" : "Test2"},
+                {"text" : "Test2"},
+                {"text" : "Test2"}
+            ],
+            "title" : "TEST"
+        },
+        {
+            "img" : "teacher3.jpg",
+            "comments" :[
+                {"text" : "Test3"},
+                {"text" : "Test3"},
                 {"text" : "Test3"}
-            ]
+            ],
+            "title" : "TEST"
+        },
+        {
+            "img" : "teacher4.png",
+            "comments" :[
+                {"text" : "Test4"},
+                {"text" : "Test4"},
+                {"text" : "Test4"}
+            ],
+            "title" : "TEST"
         }
     ]
 }

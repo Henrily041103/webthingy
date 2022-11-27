@@ -7,10 +7,10 @@ class Header extends React.Component{
 
     render() {
         return (
-            <div id = "header">
+            <header id = "header">
                 <NavBar></NavBar>
                 <NavPanel></NavPanel>
-            </div>
+            </header>
         )
     }
 }

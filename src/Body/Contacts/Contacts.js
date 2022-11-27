@@ -12,7 +12,7 @@ import "./contacts_styles.css"
 class Contacts extends React.Component {
     render() {
         return (
-            <div id = "footer_container">
+            <footer id = "footer_container">
                 <div className='row' >
                     <div className='col-5' id = "links">
                         <div >
@@ -48,7 +48,7 @@ class Contacts extends React.Component {
                 </div>
                 <img src = {seperator} alt =""></img>
                 <div id = "copyright">(C) Coryright 2022 IELTS SCHOLAR. All rights reserved</div>
-            </div>
+            </footer>
         )
     }
 }

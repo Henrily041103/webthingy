@@ -6,7 +6,7 @@ import "./main_page_styles.css"
 class Main_Page extends React.Component{
     render(){
         return (
-            <div className='row'>
+            <div className='mp row'>
                 <div className='col-6'>
                     <Intro_Text></Intro_Text>
                 </div>

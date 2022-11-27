@@ -1,14 +1,19 @@
 /* teachers general */
 #teachers {
     background-color: rgb(182, 36, 50);
-    padding-left: 3%;
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: Calibri;
 }
+.left {
+    padding-left: 3%;
+}
+.right{
+    padding-right: 3%;
+}
 
 /* teacher images */ 
-#teacher_carousel_container {
+article>.col-4 {
     background-color: white;
     padding-bottom: 5%;
     text-align: center;
@@ -16,28 +21,37 @@
 
 .teacher_images {
     object-fit:contain;
+    height: 80vh;
+    width: 30vw;
+    margin-top: 5%;
 }
 
 /* teacher text */
-#teacher_text_container {
-    margin-left: 30%;
-    margin-right: 10%;
+aside {
     margin-top: 5%;
     color: white;
 }
 
-#teacher_seperator {
+.left aside {
+    margin-left: 45%;
+    margin-right: 10%;
+}
+.right aside {
+    margin-left: 5%;
+}
+
+aside>img {
     margin-top: 5%;
     margin-bottom: 5%;
     max-width: 50%;
 }
 
-#teacher_title {
+aside>div {
     font-size: 28px;
     font-weight: bold;
 }
 
-.teacher_items {
+aside li {
     font-size: 24px;
     text-align: justify;
 }

@@ -6,7 +6,7 @@ class NavBar extends React.Component {
 
     render(){
         return (
-            <div className="container">
+            <nav className="container">
                 <div className="row">
                     <div className="col-1">
                         <span className="logo_container">
@@ -44,7 +44,7 @@ class NavBar extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </nav>
         )
     }
 }

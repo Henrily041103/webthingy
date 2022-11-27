@@ -11,21 +11,19 @@
     height: 60vh;
 }
 
-#mp_carousel_container {
+
+.carousel-indicators {
     text-align: center;
     margin-left: -4%;
     margin-right: 2%;
+    bottom: -50px;
+    right: 300px;
 }
 
 .carousel-indicators [data-bs-target] {
     width: 10px; /* change width */
     height: 10px; /* change height */
     border-radius: 200%;
-}
-
-.carousel-indicators {
-    bottom: -50px;
-    right: 300px;
 }
 
 /* Text */
