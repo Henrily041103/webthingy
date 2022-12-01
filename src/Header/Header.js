@@ -7,7 +7,7 @@ class Header extends React.Component{
 
     render() {
         return (
-            <header id = "header">
+            <header>
                 <NavBar></NavBar>
                 <NavPanel></NavPanel>
             </header>

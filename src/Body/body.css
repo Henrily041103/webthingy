@@ -15,12 +15,14 @@
 }
 
 #button_box>button{
-    padding: 2vh 0vw 2vh 0vw;
     border: none;
-    background-color: burlywood;
 }
 
 #button_box img {
     max-width: 10vw;
     max-height: 10vh;
+}
+
+body {
+    scroll-behavior: smooth;
 }

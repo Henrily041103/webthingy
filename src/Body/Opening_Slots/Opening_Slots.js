@@ -16,7 +16,7 @@ class Opening_Slots extends React.Component {
 
     render() {
         return (
-            <div id="slots_container">
+            <section id="opening_slots">
                 <div className='row' id="slots_titlebar_container">
                     <div className='col-8' id = "slots_title_container">
                         <span id="slots_normal_text">Đăng ký khoá học tại </span>
@@ -32,7 +32,7 @@ class Opening_Slots extends React.Component {
                 <div className='row gx-10' id = "table_container">
                     {this.renderAll()}
                 </div>
-            </div>
+            </section>
         )
     }
 }

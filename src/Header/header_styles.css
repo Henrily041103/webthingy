@@ -50,7 +50,9 @@
 #navi_buttons_container {
     background-color: rgb(84, 17, 23);
     padding: 3px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #navi_buttons_column {
@@ -70,19 +72,11 @@
 .Media_Button {
     background-color: rgb(84, 17, 23);
     border: none;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 #media_buttons_column {
     text-align:right;
     padding-left: 12%;
-}
-
-#youtube_button_image {
-    min-width: 200%;
-    min-height: 200%;
-}
-#youtube_button{
-    padding-left: 2%;
+    display: flex;
+    justify-content: center;
 }

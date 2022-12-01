@@ -49,6 +49,10 @@
 .small-intro-text {
     font-family: Calibri;
     font-size: 28px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(182, 36, 50);
+    border: none;
 }
 
 .list_item {

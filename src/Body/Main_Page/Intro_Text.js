@@ -11,9 +11,9 @@ class Intro_Text extends React.Component{
                 <br />
                 <div>
                     <ul id='intro_list'>
-                        <li className = 'list_item'><span className='small-intro-text' onClick={() => changeCarousel(0)}>alkdlaskjdlkasj</span></li>
-                        <li className = 'list_item'><span className='small-intro-text' onClick={() => changeCarousel(1)}>alkdlaskjdlkasj</span></li>
-                        <li className = 'list_item'><span className='small-intro-text' onClick={() => changeCarousel(2)}>alkdlaskjdlkasj</span></li>
+                        <li className = 'list_item'><button className='small-intro-text' onClick={() => changeCarousel(0)}>alkdlaskjdlkasj</button></li>
+                        <li className = 'list_item'><button className='small-intro-text' onClick={() => changeCarousel(1)}>alkdlaskjdlkasj</button></li>
+                        <li className = 'list_item'><button className='small-intro-text' onClick={() => changeCarousel(2)}>alkdlaskjdlkasj</button></li>
                     </ul>
                 </div>
             </div>

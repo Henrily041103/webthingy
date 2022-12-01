@@ -6,14 +6,14 @@ import "./main_page_styles.css"
 class Main_Page extends React.Component{
     render(){
         return (
-            <div className='mp row'>
+            <section className='mp row' id='main_page'>
                 <div className='col-6'>
                     <Intro_Text></Intro_Text>
                 </div>
                 <div className='col-6' id='mp_carousel_container'>
                     <Intro_Images></Intro_Images>
                 </div>
-            </div>
+            </section>
         )
     }
 }

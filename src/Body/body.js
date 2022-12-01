@@ -2,6 +2,7 @@ import React from 'react';
 import Main_Page from './Main_Page/main_page';
 import Opening_Slots from './Opening_Slots/Opening_Slots';
 import Teachers from './Teachers/Teachers';
+import EStudent from "./ExceptionalStudents/EStudent"
 import Contacts from './Contacts/Contacts';
 import "./body.css"
 import fb from "../assets/images/fb_button.png"
@@ -12,10 +13,11 @@ class Page_Body extends React.Component{
     render(){
         return (
             <main>
-                <section id='main_page'><Main_Page></Main_Page></section>
-                <section id='opening_slots'><Opening_Slots></Opening_Slots></section>
-                <section id='teachers'><Teachers></Teachers></section>
-                <section id='contacts'><Contacts></Contacts></section>
+                <Main_Page></Main_Page>
+                <Opening_Slots></Opening_Slots>
+                <Teachers></Teachers>
+                <EStudent></EStudent>
+                <Contacts></Contacts>
                 <p id = 'button_box'>
                     <button className="rounded-circle"><img src = {fb} alt ="Contact Facebook"></img></button>
                     <button className="rounded-circle"><img src = {zalo} alt ="Contact Zalo"></img></button>

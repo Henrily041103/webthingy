@@ -21,12 +21,12 @@ class NavPanel extends React.Component{
                         <div className="col">
                             <NaviButton name = "teachers_button" text = "Giảng viên" link = "teachers"></NaviButton>
                         </div>
-                        {/* <div className="col-2">
-                            <NaviButton name = "classes_button" text = "C" link = "classes"></NaviButton>
+                        <div className="col">
+                            <NaviButton name = "studentm_button" text = "Khoảng khắc học viên" link = "studentm"></NaviButton>
                         </div>
-                        <div className="col-2">
-                            <NaviButton name = "resources_button" text = "R" link = "resources"></NaviButton>
-                        </div> */}
+                        <div className="col">
+                            <NaviButton name = "estudent_button" text = "Học viên ưu tú" link = "estudent"></NaviButton>
+                        </div>
                         <div className="col">
                             <NaviButton name = "contacts_button" text = "Liên hệ" link = "contacts"></NaviButton>
                         </div>
