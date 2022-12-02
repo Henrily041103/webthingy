@@ -1,4 +1,34 @@
 /* EStudent general */
 #estudent {
-    background-color: aqua;
+    background-color: rgb(182, 36, 50);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: Calibri;
+    font-size: 24px;
+}
+
+#estudent > p{
+    font-size: 40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    left: 5vw;
+}
+
+#estudent > article {
+    text-align: center;
+}
+
+#estudent .carousel-control-next {
+    left: 70vw;
+}
+
+#estudent .carousel-control-prev {
+    left: 15vw;
+}
+
+#estudent img {
+    height: 60vh;
 }

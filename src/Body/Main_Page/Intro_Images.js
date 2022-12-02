@@ -17,13 +17,8 @@ function renderPic(image) {
 }
 
 function Intro_Images() {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
   return (
-    <Carousel variant="dark" controls={false} interval={2500} id="mp_carousel" activeIndex={index} onSelect = {handleSelect}>
+    <Carousel variant="dark" controls={false} id="mp_carousel">
       {renderAll()}
     </Carousel>
   );

@@ -1,5 +1,35 @@
 /* StudentM general */
 
 #studentm {
-    background-color: blueviolet;
+    background-color: rgb(217, 217, 217);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: Calibri;
+    font-size: 24px;
 }
+
+#studentm > p{
+    font-size: 40px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    position: absolute;
+    left: 5vw;
+}
+
+#studentm > article {
+    text-align: center;
+}
+
+#studentm .carousel-control-next {
+    left: 70vw;
+}
+
+#studentm .carousel-control-prev {
+    left: 15vw;
+}
+
+#studentm img {
+    height: 60vh;
+}
+

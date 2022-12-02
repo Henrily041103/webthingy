@@ -49,7 +49,8 @@
 
 #navi_buttons_container {
     background-color: rgb(84, 17, 23);
-    padding: 3px;
+    padding: 0.1%;
+    padding-left: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,7 +58,6 @@
 
 #navi_buttons_column {
     text-align: center;
-    
 }
 
 .Navi_Button{
@@ -76,7 +76,7 @@
 
 #media_buttons_column {
     text-align:right;
-    padding-left: 12%;
+    padding-left: 8%;
     display: flex;
     justify-content: center;
 }

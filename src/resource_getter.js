@@ -9,4 +9,6 @@ function importAll(r) {
 
 const IntroImage = importAll(require.context('assets/images/Intro_Images/intro_slider', false, /\.(png|jpe?g|svg)$/));
 const TeacherImage = importAll(require.context('assets/images/Teacher_Images/teacher', false, /\.(jpg|png|jpe?g|svg)$/));
-export {IntroImage, TeacherImage};
+const EStudentImage = importAll(require.context('assets/images/EStudent_Images', false, /\.(jpg|png|jpe?g|svg)$/));
+const StudentMImage = importAll(require.context('assets/images/StudentM_Images', false, /\.(jpg|png|jpe?g|svg)$/));
+export {IntroImage, TeacherImage, EStudentImage, StudentMImage};

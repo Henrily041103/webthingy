@@ -10,7 +10,7 @@ class NavPanel extends React.Component{
     render(){
         return (
             <div className="row" id = "navi_buttons_container">
-                <div className="col-8" id = "navi_buttons_column">
+                <div className="col-9" id = "navi_buttons_column">
                     <div className="row">
                         <div className="col">
                             <NaviButton name = "main_page_button" text = "Về IELTS Scholar" link = "main_page"></NaviButton>
@@ -22,7 +22,7 @@ class NavPanel extends React.Component{
                             <NaviButton name = "teachers_button" text = "Giảng viên" link = "teachers"></NaviButton>
                         </div>
                         <div className="col">
-                            <NaviButton name = "studentm_button" text = "Khoảng khắc học viên" link = "studentm"></NaviButton>
+                            <NaviButton name = "studentm_button" text = "Khoảnh khắc học viên" link = "studentm"></NaviButton>
                         </div>
                         <div className="col">
                             <NaviButton name = "estudent_button" text = "Học viên ưu tú" link = "estudent"></NaviButton>
