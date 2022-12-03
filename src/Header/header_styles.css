@@ -60,6 +60,10 @@
     text-align: center;
 }
 
+#navi_buttons_column .row :nth-child(6).col{
+    text-align: left;
+}
+
 .Navi_Button{
     background-color: rgb(84, 17, 23);
     border: none;

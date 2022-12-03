@@ -21,13 +21,25 @@ class Page_Body extends React.Component{
                 <EStudent></EStudent>
                 <Contacts></Contacts>
                 <p id = 'button_box'>
-                    <button className="rounded-circle"><img src = {fb} alt ="Contact Facebook"></img></button>
-                    <button className="rounded-circle"><img src = {zalo} alt ="Contact Zalo"></img></button>
-                    <button className="rounded-circle"><img src = {call} alt ="Call Hotline"></img></button>
+                    <a className='SocMed' href='#'><img src = {fb} alt ="Contact Facebook"></img></a>
+                    <a className='SocMed' href='#'><img src = {zalo} alt ="Contact Zalo"></img></a>
+                    <button className='SocMed' onClick={openOptions}><img src = {call} alt ="Call Us"></img></button>
+                    <span id='callOptionsBox'>
+                        <a className='callOptions' href="tel:+84966 13 15 14">Gọi điện thoại cho trung tâm </a>
+                        <a className='callOptions' href='mailto:ieltsscholar.center@gmail.com?subject=Yêu cầu gọi lại'>Gửi mail yêu cầu gọi lại</a>
+                    </span>
                 </p>
             </main>
         )
     }
+}
+
+function openOptions() {
+    var box = document.getElementById('callOptionsBox');
+    if (box.style.display === "block") {
+        box.style.display = "none";
+    }
+    else box.style.display = "block";
 }
 
 export default Page_Body;

@@ -14,13 +14,43 @@
     }
 }
 
-#button_box>button{
+#button_box>a, #button_box>button{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 100%;
     border: none;
 }
 
 #button_box img {
     max-width: 10vw;
     max-height: 10vh;
+}
+
+#callOptionsBox {
+    display: none;
+    position: absolute;
+    right: 8vw;
+    bottom: -2vh;
+    width: max-content;
+}
+
+.callOptions {
+    display: block;
+    background-color: white;
+    border-style: solid;
+    border-color: turquoise;
+    border-radius: 10%;
+    border-width: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.callOptions:hover {
+    color: black;
 }
 
 body {
