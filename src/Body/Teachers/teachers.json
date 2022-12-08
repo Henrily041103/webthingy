@@ -7,34 +7,28 @@
                 {"text" : "Giảng viên khoa Ngôn Ngữ Anh tại ĐH FPT"},
                 {"text" : "Hơn 8 năm kinh nghiệm giảng dạy tiếng Anh cho học sinh, sinh viên và các doanh nghiệp."}
             ],
-            "title" : "GIẢNG VIÊN CHẤT LƯỢNG"
+            "title" : "ĐỖ THỊ NGỌC DIỄM"
         },
         {
-            "img" : "teacher2.png",
+            "img" : "teacher2.jpg",
             "comments" :[
-                {"text" : "Test2"},
-                {"text" : "Test2"},
-                {"text" : "Test2"}
+                {"text" : "OVERALL 8.5 và 9.0 SPEAKING x 2 lần liên tiếp"},
+                {"text" : "Nói giọng Anh Anh sang chảnh và giọng Ấn Độ thần thánh"},
+                {"text" : "Cựu du học sinh Anh, Úc"},
+                {"text" : "Kinh nghiệm mentor cho nhiều giáo viên IELTS"},
+                {"text" : "Kinh nghiệm tutor 1:1 thành công cho rất nhiều du học sinh các nước"}
             ],
-            "title" : "TEST"
+            "title" : "LÊ NGỌC TÚ"
         },
         {
             "img" : "teacher3.jpg",
             "comments" :[
-                {"text" : "Test3"},
-                {"text" : "Test3"},
-                {"text" : "Test3"}
+                {"text" : "Giáo viên 8.0 OVERALL"},
+                {"text" : "Du học sinh ĐH New York chuyên ngành Tâm lý học"},
+                {"text" : "Có kinh nghiệm sửa luận văn cho các du học sinh vào các ĐH nổi tiếng (Cornell University và New York University)"},
+                {"text" : "Đồng tác giả cuốn sách 'Trên đường bay'"}
             ],
-            "title" : "TEST"
-        },
-        {
-            "img" : "teacher4.png",
-            "comments" :[
-                {"text" : "Test4"},
-                {"text" : "Test4"},
-                {"text" : "Test4"}
-            ],
-            "title" : "TEST"
+            "title" : "NGUYỄN TRẦN ĐỨC BÌNH"
         }
     ]
 }

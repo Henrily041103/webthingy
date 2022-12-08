@@ -7,7 +7,7 @@ class StudentM extends React.Component {
     render() {
         return (
             <section id = "studentm">
-                <p>KHOẢNG KHẮC HỌC VIÊN</p>
+                <p>KHOẢNH KHẮC HỌC VIÊN</p>
                 <article>
                     <Carousel variant="dark">
                         {renderAll()}
@@ -19,7 +19,7 @@ class StudentM extends React.Component {
 }
 
 function renderPic(image) {
-    return <img className="StudentM_Carousel_Image" src={image}></img>;
+    return <img className="StudentM_Carousel_Image" src={image} alt="khoảng khắc của học viên"></img>;
 }
 
 function renderAll() {

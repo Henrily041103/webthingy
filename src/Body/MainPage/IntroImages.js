@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import { IntroImage } from "resource_getter";
 
@@ -13,10 +13,10 @@ function renderAll() {
 }
 
 function renderPic(image) {
-  return <img className="Main_Page_Carousel_Image" src={image}></img>;
+  return <img className="Main_Page_Carousel_Image" src={image} alt="về trung tâm của chúng tôi"></img>;
 }
 
-function Intro_Images() {
+function IntroImages() {
   return (
     <Carousel variant="dark" controls={false} id="mp_carousel">
       {renderAll()}
@@ -24,4 +24,4 @@ function Intro_Images() {
   );
 }
 
-export default Intro_Images;
+export default IntroImages;

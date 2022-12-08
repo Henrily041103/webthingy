@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import items from "./teachers.json";
 import { TeacherImage } from "resource_getter";
 import "./teachers_styles.css";
@@ -12,7 +12,7 @@ class Teachers extends React.Component {
 }
 
 function renderPic(url) {
-  return <img src={url} alt="" className="teacher_images"></img>;
+  return <img src={url} alt="về giáo viên" className="teacher_images"></img>;
 }
 function renderText(title, comment) {
   var index = 0;
@@ -24,7 +24,7 @@ function renderText(title, comment) {
   return (
     <aside>
       <div>{title}</div>
-      <img src={bar}></img>
+      <img src={bar} alt =""></img>
       <ul>{list}</ul>
     </aside>
   );

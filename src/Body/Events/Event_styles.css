@@ -1,38 +1,41 @@
-/* EStudent general */
-#estudent {
-    background-color: rgb(182, 36, 50);
+#events {
+    background-color: rgb(217, 217, 217);
     padding-top: 3%;
     padding-bottom: 5%;
     font-family: Calibri;
     font-size: 24px;
 }
 
-#estudent > p{
+#events > p{
     font-size: 40px;
     padding-top: 1%;
     padding-bottom: 1%;
     font-weight: bold;
-    color: white;
     position: relative;
     left: 5vw;
 }
 
-#estudent > article {
+#events > article {
     text-align: center;
 }
 
-#estudent .carousel-control-next {
+#events .carousel-control-next {
     left: 70vw;
 }
 
-#estudent .carousel-control-prev {
+#events .carousel-control-prev {
     left: 15vw;
 }
 
-#estudent img {
+#events img {
     height: 60vh;
 }
 
-#estudent .carousel-indicators {
+#events .carousel-caption {
+    position: relative;
+    padding-right: 30%;
+}
+
+#events .carousel-indicators {
     display: none;
 }

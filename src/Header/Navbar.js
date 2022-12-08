@@ -10,7 +10,7 @@ class NavBar extends React.Component {
                 <div className="row">
                     <div className="col-1">
                         <span className="logo_container">
-                            <img src = {logo} id = "logo"></img>
+                            <img src = {logo} id = "logo" alt=""></img>
                         </span>
                     </div>
     
@@ -36,9 +36,9 @@ class NavBar extends React.Component {
                                     <span className="bold" id="number">0966 13 15 14<br /></span>
                                 </span>
                                 <div className="support_button_container">
-                                    <button onClick={null} id = "support_button" className="btn btn-danger btn-lg">
+                                    <a id = "support_button" className="btn btn-danger btn-lg" href="https://forms.gle/fJea7Qk72wgKwLA97">
                                         <span id="bold"> Đặt Lịch Test Thử</span>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

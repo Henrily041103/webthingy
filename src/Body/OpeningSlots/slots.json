@@ -1,0 +1,28 @@
+{
+    "items":[
+        {
+            "coursename" : "Sơ cấp IP 03",
+            "link" : "",
+            "introduction" : "Chưa vững căn bản TA",
+            "target": "Cung cấp từ vựng, cấu trúc và ngữ pháp căn bản cho 1 chủ đề Xây dựng 4 kỹ năng theo định hướng IELTS"
+        },
+        {
+            "coursename" : "Trung cấp IU 03",
+            "link" : "https://drive.google.com/file/d/1-zhI6EWEq0_V4Z3BJoICaUaAElo0cfA0/view?usp=sharing",
+            "introduction" : "Đã có 4.0/4.5+ hoặc đạt mức B1 trong bài thi xếp lớp",
+            "target" : "Củng cố vốn từ vựng, collocations, và idiomatic language cho 8 chủ đề nâng cao hơn, xây dựng 4 kỹ năng IELTS nâng cao."
+        },
+        {
+            "coursename" : "Nâng cao IU 03",
+            "link" : "https://drive.google.com/file/d/10-XSHdudP9B1r3q-B6dznG_4l7o2Jhzu/view?usp=sharing",
+            "introduction" : "Đã có 5.5+ IELTS hoặc đạt trình độ B2 trong bài thi xếp lớp.",
+            "target": " Trau dồi ngữ pháp và từ vựng chuyên sâu theo 8 chủ đề khó hơn, xây dựng kỹ năng làm bài qua đề thi thật"
+        },
+        {
+            "coursename" : "Luyên Thi Pre-IELTS",
+            "link" : "",
+            "introduction" : "Sắp tham gia thi chính thức (3 tháng đổ lại)",
+            "target":"Ôn luyện các điểm ngữ pháp và từ vựng khó và luyện tập đề thi thật"
+        }
+    ]
+}

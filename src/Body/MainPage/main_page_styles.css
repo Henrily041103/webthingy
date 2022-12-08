@@ -8,7 +8,8 @@
 
 /* Carousel */
 .Main_Page_Carousel_Image {
-    height: 60vh;
+    height: 80vh;
+    width: 80;
 }
 
 
@@ -29,7 +30,8 @@
 /* Text */
 #intro_text{
     color: white;
-    margin-left: 20%;
+    margin-left: 10%;
+    align-items: center;
 }
 
 #big-intro-text {
@@ -53,6 +55,8 @@
     color: white;
     background-color: rgb(182, 36, 50);
     border: none;
+    text-align: left;
+    margin-top: -2%;
 }
 
 .list_item {

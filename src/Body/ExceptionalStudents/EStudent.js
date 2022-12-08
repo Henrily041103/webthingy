@@ -19,7 +19,7 @@ class EStudent extends React.Component {
 }
 
 function renderPic(image) {
-    return <img className="EStudent_Carousel_Image" src={image}></img>;
+    return <img className="EStudent_Carousel_Image" src={image} alt="học viên ưu tú"></img>;
 }
 
 function renderAll() {

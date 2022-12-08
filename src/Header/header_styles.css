@@ -6,10 +6,9 @@
 
 /* Navbar */
 #logo {
-    max-width: 120%;
-    max-height: 120%;
-    object-fit: fill;
-    margin-left: -50%;
+    width: 15vw;
+    margin-left: -120%;
+    margin-top: -20%;
 }
 
 .title_container {
@@ -54,14 +53,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
-#navi_buttons_column {
+#navi_buttons_column>.row {
     text-align: center;
-}
-
-#navi_buttons_column .row :nth-child(6).col{
-    text-align: left;
+    column-gap: 3vw;
 }
 
 .Navi_Button{
@@ -80,7 +77,11 @@
 
 #media_buttons_column {
     text-align:right;
-    padding-left: 8%;
+    padding-left: 2%;
     display: flex;
-    justify-content: center;
+}
+
+#media_buttons_column img{
+    max-width: 2.5vw;
+    max-height: 2.5vw;
 }
