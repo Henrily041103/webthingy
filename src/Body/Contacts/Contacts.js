@@ -11,9 +11,9 @@ import "./contacts_styles.css";
 class Contacts extends React.Component {
   render() {
     return (
-      <footer id='contacts'>
+      <footer>
         <div className="row">
-          <div className="col-5" id="links">
+          <div className="col-sm-5 col-md-5 col-lg-5 col-xl-5 col-xxl-5 col-12" id="links">
             <div>
               <img src={logo} alt="logo" id="footer_logo"></img>
             </div>
@@ -31,7 +31,7 @@ class Contacts extends React.Component {
               </a>
             </div>
           </div>
-          <div className="col-7" id="contacts">
+          <div className="col-sm-7 col-md-7 col-lg-7 col-xl-7 col-xxl-7 col-12" id="contacts">
             <div id="contacts_title">THÔNG TIN LIÊN HỆ</div>
             <div className="footer_contact">
               <a href="mailto:ieltsscholar.center@gmail.com">
@@ -56,10 +56,9 @@ class Contacts extends React.Component {
             </div>
           </div>
         </div>
-        <img src={seperator} alt=""></img>
+        <img src={seperator} alt="" id = "seperator"></img>
         <div id="copyright">
-          (C) Coryright 2022 IELTS SCHOLAR. All rights reserved <br/> 
-          <a href="https://icons8.com">Icons by icons8.com</a>
+          (C) Coryright 2022 IELTS SCHOLAR. All rights reserved
         </div>
       </footer>
     );

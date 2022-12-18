@@ -1,5 +1,5 @@
 #events {
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(255, 255, 255);
     padding-top: 3%;
     padding-bottom: 5%;
     font-family: Calibri;
@@ -19,23 +19,50 @@
     text-align: center;
 }
 
-#events .carousel-control-next {
-    left: 70vw;
-}
-
-#events .carousel-control-prev {
-    left: 15vw;
-}
-
 #events img {
     height: 60vh;
 }
 
-#events .carousel-caption {
-    position: relative;
-    padding-right: 30%;
+#events .carousel-indicators {
+    margin-left: 25%;
 }
 
-#events .carousel-indicators {
-    display: none;
+#events .tab-pane {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+@media (max-width: 767.98px) {
+    #events {
+        font-size: 20px;
+    }
+    #events .tab-pane {
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    #events img {
+        max-width: 71.5vw;
+        max-height: 38.5vw;
+    }
+    #events > p {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #events {
+        padding-right: 20%;
+    }
+
+    #events > p {
+        font-size: 24px;
+    }
+    #events {
+        font-size: 16px;
+    }
+    #events img {
+        max-width: 97.5vw;
+        max-height: 52.5vw;
+    }
 }

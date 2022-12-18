@@ -5,7 +5,7 @@ import Teachers from './Teachers/Teachers';
 // import EStudent from "./ExceptionalStudents/EStudent"
 // import StudentM from './StudentMoments/StudentM';
 import Contacts from './Contacts/Contacts';
-// import Events from './Events/Events';
+import Events from './Events/Events';
 import "./body.css"
 import fb from "../assets/images/fb_button.png"
 // import zalo from "../assets/images/zalo_button.png"
@@ -18,6 +18,7 @@ class PageBody extends React.Component{
                 <MainPage></MainPage>
                 <OpeningSlots></OpeningSlots>
                 <Teachers></Teachers>
+                <Events></Events>
                 <Contacts></Contacts>
                 <p id = 'button_box'>
                     <a className='SocMed' href='https://www.facebook.com/ieltsscholar.center'><img src = {fb} alt ="Contact Facebook"></img></a>

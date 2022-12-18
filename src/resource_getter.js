@@ -12,5 +12,6 @@ const IntroImage = importAll(require.context('assets/images/Intro_Images/intro_s
 const TeacherImage = importAll(require.context('assets/images/Teacher_Images/teacher', false, /\.(jpg|png|jpe?g|svg)$/));
 const EStudentImage = importAll(require.context('assets/images/EStudent_Images', false, /\.(jpg|png|jpe?g|svg)$/));
 const StudentMImage = importAll(require.context('assets/images/StudentM_Images', false, /\.(jpg|png|jpe?g|svg)$/));
-const EventImage = importAll(require.context('assets/images/Event_Images', false, /\.(jpg|png|jpe?g|svg)$/));
+const Event20_11 = importAll(require.context('assets/images/Event_Images/20_11', false, /\.(jpg|JPG|png|jpe?g|svg)$/));
+const EventImage = [{name : "Event20_11", img : Event20_11}];
 export {IntroImage, TeacherImage, EStudentImage, StudentMImage, EventImage};

@@ -3,13 +3,15 @@ import NaviButton from "./navi_button";
 import FBButton from  "../assets/images/Navbar_Images/facebook.png";
 import YTButton from  "../assets/images/Navbar_Images/youtube.png";
 import TTButton from  "../assets/images/Navbar_Images/tiktok.png";
+import MenuButton from "../assets/images/Navbar_Images/menu.png";
 
 class NavPanel extends React.Component{
 
     render(){
         return (
             <div className="row" id = "navi_buttons_container">
-                <div className="col-10" id = "navi_buttons_column">
+                <div className="col-8" id = "navi_buttons_column">
+                    <button id = "menu_button" onClick={toggleMenu}><img src={MenuButton} alt ="menu_toggle"></img></button>
                     <div className="row">
                         <div className="col-auto">
                             <NaviButton name = "main_page_button" text = "Về IELTS Scholar" link = "main_page"></NaviButton>
@@ -35,7 +37,7 @@ class NavPanel extends React.Component{
                     </div>
                 </div>
     
-                <div className="col-2" id = "media_buttons_column">
+                <div className="col-4" id = "media_buttons_column">
                     <div className="row">
                             <a className="col-4" href="https://www.facebook.com/ieltsscholar.center"><img src={FBButton} alt ="facebook_button"></img></a>
                             <a className="col-4" href="https://www.youtube.com/@ieltsscholar7948"><img src={YTButton} alt ="youtube_button"></img></a>
@@ -47,6 +49,19 @@ class NavPanel extends React.Component{
         )
     }
 
+}
+
+function toggleMenu() {
+    var navRow = document.getElementById("navi_buttons_column").children.item(1);
+    var mediaRow = document.getElementById("media_buttons_column").children.item(0);
+    if (navRow.style.display === "flex") {
+        navRow.style.display = "none";
+        mediaRow.style.flexDirection = "row";
+    }
+    else {
+        navRow.style.display = "flex";
+        mediaRow.style.flexDirection = "column";
+    }
 }
 
 export default NavPanel;

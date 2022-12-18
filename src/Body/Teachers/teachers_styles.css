@@ -4,6 +4,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
     font-family: Calibri;
+    padding-right: 5%;
 }
 .left {
     padding-left: 3%;
@@ -25,6 +26,10 @@ article>.col-4 {
     margin-top: 5%;
 }
 
+.right_pic {
+    text-align: right;
+}
+
 /* teacher text */
 aside {
     margin-top: 5%;
@@ -32,11 +37,12 @@ aside {
 }
 
 .left aside {
-    margin-left: 45%;
+    margin-left: 10%;
     margin-right: 10%;
 }
 .right aside {
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 aside>img {
@@ -53,4 +59,39 @@ aside>div {
 aside li {
     font-size: 24px;
     text-align: justify;
+}
+
+@media (max-width: 991.98px) { 
+    .teacher_images {
+        width: 40vw;
+    }
+}
+
+@media (max-width: 767.98px) {
+    aside>div {
+        font-size: 24px;
+    }
+    
+    aside li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #teachers {
+        padding-right: 12%;
+    }
+    .teacher_images {
+        width: 70vw;
+    }
+    .right {
+        flex-direction: column-reverse;
+    }
+    
+}
+
+@media (max-width: 575.98px) {
+    #teachers {
+        padding-right: 14%;
+    }
 }

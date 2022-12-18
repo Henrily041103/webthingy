@@ -1,3 +1,5 @@
+
+
 #button_box {
     position: fixed;
     bottom: 0;
@@ -5,14 +7,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 10vh;
-    margin-right: 1vw;
 }
 
-@media screen and (max-width : 450px) {
-    main>p {
-        display: none;
-    }
-}
 
 #button_box>a, #button_box>button{
     width: fit-content;
@@ -23,15 +19,14 @@
 }
 
 #button_box img {
-    max-width: 10vw;
-    max-height: 10vh;
+    max-width: 64px;
 }
 
 #callOptionsBox {
     display: none;
     position: absolute;
-    right: 8vw;
-    bottom: -2vh;
+    right: 85px;
+    bottom: -25px;
     width: max-content;
 }
 
@@ -51,8 +46,31 @@
 
 .callOptions:hover {
     color: black;
+    background-color: aqua;
 }
 
 body {
     scroll-behavior: smooth;
+}
+
+@media (max-width: 996px) {
+    .callOptions {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #button_box img {
+        max-width: 56px;
+    }
+}
+
+@media (max-width: 450px) {
+    .callOptions {
+        font-size: 16px;
+    }
+
+    #button_box img {
+        max-width: 48px;
+    }
 }

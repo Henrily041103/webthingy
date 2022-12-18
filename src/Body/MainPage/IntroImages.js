@@ -18,7 +18,7 @@ function renderPic(image) {
 
 function IntroImages() {
   return (
-    <Carousel variant="dark" controls={false} id="mp_carousel">
+    <Carousel variant="dark" id="mp_carousel">
       {renderAll()}
     </Carousel>
   );

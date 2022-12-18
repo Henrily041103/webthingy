@@ -18,11 +18,11 @@ class OpeningSlots extends React.Component {
         return (
             <section id="opening_slots">
                 <div className='row' id="slots_titlebar_container">
-                    <div className='col-8' id = "slots_title_container">
+                    <div className='col-md-8 col-sm-6' id = "slots_title_container">
                         <span id="slots_normal_text">Đăng ký khoá học tại </span>
                         <span id="slots_big_text">IELTS SCHOLAR</span>
                     </div>
-                    <span className='col-4' id='support_button_container'>
+                    <span className='col-md-4 col-sm-6' id='support_button_container'>
                         <a id = "support_button" className="btn btn-danger btn-lg" href="https://forms.gle/fJea7Qk72wgKwLA97">
                             <span id="bold"> Đặt Lịch Test Thử</span>
                         </a>

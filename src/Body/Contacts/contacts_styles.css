@@ -1,80 +1,120 @@
 /* Footer general */
 footer {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    background-color: rgb(217, 217, 217);
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: rgb(217, 217, 217);
+  padding-right: 10%;
+  font-size: 24px;
 }
-
-
 
 /* left side */
 
 #links {
-    text-align: center;
+  text-align: center;
 }
 
 #footer_logo {
-    width: 25%;
+  width: 25%;
 }
 
 .footer_link_icon {
-    width: 20%;
+  width: 20%;
 }
 
 #footer_title {
-    font-family: Cambria;
-    font-size: 24px;
+  font-family: Cambria;
 }
 
 #footer_name {
-    color: rgb(182, 36, 50);
-    font-weight: bold;
+  color: rgb(182, 36, 50);
+  font-weight: bold;
 }
 
 /* right side */
 
 #contacts_title {
-    font-family: Cambria;
-    font-size: 40px;
-    padding-bottom: 3%;
-    font-weight: bold;
+  font-family: Cambria;
+  font-size: 40px;
+  padding-bottom: 3%;
+  font-weight: bold;
 }
 
 .footer_contact {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 24px;
-    font-family: Calibri;
-    text-decoration: none;
-    color: black;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-family: Calibri;
+  text-decoration: none;
+  color: black;
 }
 
 .link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .link:hover {
-    text-decoration: none;
-    color: gray;
+  text-decoration: none;
+  color: gray;
 }
 
 .footer_icon {
-    width: 6%;
-    padding-right: 2%;
+  width: 6%;
+  padding-right: 2%;
 }
 
 #return {
-    text-align: right;
-    font-size: 24px;
-    margin-right: 2%;
+  text-align: right;
+  margin-right: 2%;
 }
 
 /* copyright */
 
+#seperator {
+  width: 100vw;
+}
+
 #copyright {
-    font-family: Calibri;
-    text-align: center;
-    padding-top: 5%;
-    font-size: 24px;
+  font-family: Calibri;
+  text-align: center;
+  padding-top: 5%;
+}
+
+@media (max-width: 991.98px) {
+  footer {
+    font-size: 20px;
+  }
+  #contacts_title {
+    font-size: 36px;
+  }
+  .footer_icon {
+    width: 8%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  footer {
+    padding-right: 15%;
+  }
+  #contacts_title {
+    font-size: 28px;
+  }
+  .footer_icon {
+    width: 9%;
+  }
+}
+@media (max-width: 575.98px) {
+  footer {
+    font-size: 16px;
+    padding-right: 17%;
+  }
+  #contacts_title {
+    font-size: 20px;
+  }
+  .footer_link_icon {
+    display: none;
+  }
+  #contacts {
+    padding-left: 5%;
+    margin-top: 5%;
+  }
 }

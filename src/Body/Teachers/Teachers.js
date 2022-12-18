@@ -37,15 +37,15 @@ function renderArticle(index) {
   if (index % 2 === 0) {
     return (
       <article className="row gx-0 left" key = {index}>
-        <div className="col-4">{renderPic(image)}</div>
-        <div className="col-8">{renderText(title, text)}</div>
+        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-12">{renderPic(image)}</div>
+        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-12">{renderText(title, text)}</div>
       </article>
     );
   } else {
     return (
       <article className="row gx-0 right" key = {index}>
-        <div className="col-8">{renderText(title, text)}</div>
-        <div className="col-4">{renderPic(image)}</div>
+        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-12">{renderText(title, text)}</div>
+        <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 col-12 right_pic">{renderPic(image)}</div>
       </article>
     );
   }

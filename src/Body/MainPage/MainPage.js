@@ -7,10 +7,10 @@ class MainPage extends React.Component{
     render(){
         return (
             <section className='mp row' id='main_page'>
-                <div className='col-6'>
+                <div className='col-md-6'>
                     <IntroText></IntroText>
                 </div>
-                <div className='col-6' id='mp_carousel_container'>
+                <div className='col-md-6' id='mp_carousel_container'>
                     <IntroImages></IntroImages>
                 </div>
             </section>

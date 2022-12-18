@@ -1,40 +1,8 @@
 {
     "items" : [
         {
-            "img" : "event1.png",
-            "comment" : "20/11"
-        },
-        {
-            "img" : "event1.png",
-            "comment" : "20/11"
-        },
-        {
-            "img" : "event1.png",
-            "comment" : "20/11"
-        },
-        {
-            "img" : "event1.png",
-            "comment" : "20/11"
-        },
-        {
-            "img" : "event1.png",
-            "comment" : "20/11"
-        },
-        {
-            "img" : "event1.png",
-            "comment" : "20/11"
-        },
-        {
-            "img" : "event1.png",
-            "comment" : "20/11"
-        },
-        {
-            "img" : "event1.png",
-            "comment" : "20/11"
-        },
-        {
-            "img" : "event1.png",
-            "comment" : "20/11"
+            "event" : "20/11",
+            "internal_name" : "Event20_11"
         }
     ]
 }
