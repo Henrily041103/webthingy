@@ -52,7 +52,7 @@ function renderArticle(event) {
   return (
     <Tab eventKey={event["internal_name"]} title = {event["event"]} key = {event["internal_name"]}>
         <article>
-            <Carousel variant="dark" controls = {false} interval = {2500}>{img_list} </Carousel>
+            <Carousel variant="dark" controls = {true} interval = {2500}>{img_list} </Carousel>
         </article>
     </Tab>
   );

@@ -3,6 +3,10 @@
         {
             "event" : "20/11",
             "internal_name" : "Event20_11"
+        },
+        {
+            "event" : "Christmas",
+            "internal_name" : "EventChristmas_2022"
         }
     ]
 }

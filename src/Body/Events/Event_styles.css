@@ -24,7 +24,11 @@
 }
 
 #events .carousel-indicators {
-    margin-left: 25%;
+    display: none;
+}
+#events .carousel-control-prev, #events .carousel-control-next {
+    display: flex;
+    align-items: center;
 }
 
 #events .tab-pane {
@@ -36,9 +40,8 @@
     #events {
         font-size: 20px;
     }
-    #events .tab-pane {
-        text-align: left;
-        margin-left: 10%;
+    #events #tab_content {
+        padding-right: 10%;
     }
 
     #events img {
@@ -51,7 +54,7 @@
 }
 
 @media (max-width: 575.98px) {
-    #events {
+    #events #tab_content {
         padding-right: 20%;
     }
 
