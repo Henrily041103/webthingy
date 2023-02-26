@@ -48,7 +48,7 @@ class Contacts extends React.Component {
             <div className="footer_contact">
               <a href = "https://goo.gl/maps/dHcNwi28GMCXBEjs8">
                 <img src={location} className="footer_icon" alt=""></img>
-                <span className="link">201/11 Lê Văn Viêt, phường Hiệp Phú, Thành phố Thủ Đức</span>
+                <span className="link">Số 1, Đường số 4, phường Linh Chiểu, Thành phố Thủ Đức</span>
               </a>
             </div>
             <div id="return">
